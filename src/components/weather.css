@@ -1,0 +1,83 @@
+
+body{
+    background-color: whitesmoke;
+    /* color: white; */
+}
+#box{
+    height:400px;
+    margin-left: 620px;
+    margin-top: 50p;
+    opacity: 0.9;
+    /* width: 650px; */
+    /* border: 1px solid black; */
+}
+
+#tempc{
+    margin-left: 90px;
+    font-size: 121px;
+    margin-top: 72px;
+}
+
+#city{
+    margin-left: 89px;
+    font-size: 30px;
+    margin-top: -37px;
+}
+
+#country{
+    margin-left: 89px;
+    font-size: 25px;
+    margin-top: -45px;
+}
+#condition{
+    margin-left: 90px;
+    font-size: 25px;
+    margin-top: -20px;
+}
+@media only screen and (max-width: 600px) {
+ 
+    h1,h2{
+        font-size: large;
+    }
+    #input{
+        width: 151px;
+    }
+    #box{
+        margin-top: 70px;
+        margin-left: 121px;
+    }
+    #tempc{
+        margin-left: 125px;
+        font-size: 77px;
+        margin-top: 7px;
+        font-family: 'Andale Mono';
+        
+    }
+
+    #condition{
+        margin-left: 125px;
+        font-size: 25px;
+        margin-top: 87px;
+        font-family: 'Andale Mono';
+    }
+
+    .city{
+        font-family: Georgia, serif;
+        font-size: 40px;
+        margin-top: -212px;
+        margin-left: -192px;
+
+    }
+    .country{
+        margin-bottom: -8px;
+        font-family: Georgia, serif;
+        font-size: 25px;
+        margin-left: -193px;
+        margin-top: -79px;
+
+    }
+    .temp{
+        margin-top: 129px;
+    }
+
+  }
